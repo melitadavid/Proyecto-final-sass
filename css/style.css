@@ -18,6 +18,12 @@ body{
     font-family: 'Josefin Sans', sans-serif;
   
 }
+.fondoUno{
+    background-color:#198754;
+}
+.subTituloIndex{
+    padding: 1rem;
+}
 
 span{
     color:rgb(73, 255, 41);
@@ -192,7 +198,9 @@ footer{
     color: blanchedalmond;
     padding: 0.50rem;
 }
-
+.carousel-inner{
+    padding: 1rem
+}
 
 /* ESTILO DEL HTML COMPRA/VENTA*/
 
