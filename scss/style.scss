@@ -1,0 +1,1002 @@
+
+
+//varables color
+
+/*reset*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+//variables
+
+$colorPrincipal: rgb(0, 0, 0);
+$colorSecundario:#198754;
+$colorTerciario:rgba(73, 69, 69, 0.85);
+$colorSpan:rgb(73, 255, 41);
+$colorEnlaces:rgb(238, 238, 238);
+$colorLetras:rgb(255, 255, 255);
+$colorBordes:rgb(51, 222, 29);
+$colorBotonC: rgb(45, 208, 45);
+$colorBotonV:rgb(211, 36, 36);
+
+ /*ESTILO DEL HTML INDEX*/
+body{
+    background-color: $colorPrincipal;
+    font-family: 'Josefin Sans', sans-serif;
+    .fondoUno{
+        background-color: $colorSecundario;
+    }
+     /*estilos del header*/
+    header{
+    background-color: $colorPrincipal;
+    font-family: 'Josefin Sans', sans-serif;
+   
+       nav ul {  
+         padding: 1rem;
+         gap: 1rem;
+         li{   
+            list-style: none;   
+            font-size: 1rem;
+            padding: 0.5rem;
+         }
+     }
+    
+      .enlaces{
+         text-decoration: none;
+         color: $colorEnlaces;
+      }
+      h1{
+         padding: 1rem;
+         span{
+            color:$colorSpan
+             }
+      }
+  }
+    .subTituloIndex{
+        padding: 1rem;
+    }
+    .subTitulo{
+        margin: 2rem;
+        color: $colorEnlaces;
+    }
+    .carousel-inner{
+        padding: 1rem
+    }
+
+     
+.mainInicio{
+    margin: 1rem;
+    display:grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    grid-template-areas:"top1 top2"
+                        "top3 top4"
+                        "top5 top6"
+                        "top7 top8"
+                        "top9 top10" ;
+
+                        .tops1{
+                            grid-area: top1;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops2{
+                            grid-area: top2;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops3{
+                            grid-area: top3;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops4{
+                            grid-area: top4;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops5{
+                            grid-area: top5;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops6{
+                            grid-area: top6;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops7{
+                            grid-area: top7;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops8{
+                            grid-area: top8;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops9{
+                            grid-area: top9;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+                        .tops10{
+                            grid-area: top10;
+                            background-color:$colorTerciario;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            border-radius:0.10rem ;
+                            color: $colorLetras;
+                            display: inline-block;
+                            text-align: center;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                        }
+
+}
+footer{
+    background-color: $colorTerciario;
+    color: $colorLetras;
+    padding: 0.50rem;
+}
+
+  
+}
+
+/* ESTILO DEL HTML COMPRA/VENTA*/
+
+/*estilo de el main conteniendo las compras y ventas*/
+.subTitulo2{
+    margin:1rem;
+    color: $colorLetras;
+}
+
+/*GRID*/
+.mainCompraVenta{
+    margin: 1rem;
+    display:grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: "compraVenta1 compraVenta2"
+                         "compraVenta3 compraVenta4"
+                         "compraVenta5 compraVenta6"
+                         "compraVenta7 compraVenta8"
+                         "compraVenta9 compraVenta10"
+                         "compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14"
+                         "compraVenta15 compraVenta16";
+                         .compraVenta1{  
+                            grid-area:compraVenta1 ; 
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;   
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                    background-color: $colorBotonV ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                  
+                                   
+                                }
+                            }
+                            
+                        }
+                        .compraVenta2{  
+                            grid-area:compraVenta2 ; 
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;   
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color:$colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta3{ 
+                            grid-area:compraVenta3 ;  
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;   
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta4{
+                            grid-area:compraVenta4 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;   
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta5{
+                            grid-area:compraVenta5 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;  
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta6{
+                            grid-area:compraVenta6 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta7{
+                            grid-area:compraVenta7 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta8{
+                            grid-area:compraVenta8 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta9{
+                            grid-area:compraVenta9 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta10{
+                            grid-area:compraVenta10 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta11{
+                            grid-area:compraVenta11 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta12{
+                            grid-area:compraVenta12 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta13{
+                            grid-area:compraVenta13 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;  
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta14{
+                            grid-area:compraVenta14 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta15{
+                            grid-area:compraVenta15 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;   
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: blanchedalmond;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC ;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+                        .compraVenta16{
+                            grid-area:compraVenta16 ;   
+                            background-color:$colorTerciario;
+                            display: inline-block;
+                            text-align: center;    
+                            padding: 0.50rem;
+                            margin: 0.50rem;
+                            gap: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: blanchedalmond;
+                            .botonCompraVenta{
+                                display: flex;
+                                gap: 1rem; 
+                                justify-content: center;
+                            
+                                .botonC{
+                            
+                                    background-color: $colorBotonC;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                                .botonV{
+                                  
+                                    background-color:$colorBotonV;
+                                    border: none;
+                                    padding: 0.50rem;
+                                    border-radius: 0.10rem;
+                                }
+                            }
+                            
+                        }
+
+                     
+
+                    }
+
+/* ESTILO DEL HTML NOTICIAS*/
+
+.noticias{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows: auto;
+    grid-template-areas:"estiloNoticias1"
+                         "estiloNoticias2"
+                         "estiloNoticias3" ;
+                         .estiloNoticias1{
+                            grid-area: estiloNoticias1 ;
+                            background-color: $colorTerciario;
+                            margin: 1rem;
+                            padding: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            
+                        }   
+                        .estiloNoticias2{
+                            grid-area: estiloNoticias2 ;
+                            background-color: $colorTerciario;
+                            margin: 1rem;
+                            padding: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            
+                        }   
+                        .estiloNoticias3{
+                            grid-area: estiloNoticias3 ;
+                            background-color: $colorTerciario;
+                            margin: 1rem;
+                            padding: 1rem;
+                            border-radius: 0.10rem;
+                            box-shadow: 1px 1px 4px 0.50px $colorBordes;
+                            color: $colorLetras;
+                            
+
+}
+
+
+
+/*ESTILO DEL HTML APRENDER*/
+.mainAprender{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: "estiloAprender1"
+                         "estiloAprender2"
+                         "estiloAprender3"
+                         "estiloAprender4";
+                        
+                        }   
+} 
+
+.estiloAprender1{
+    grid-area: estiloAprender1 ;
+    background-color:$colorTerciario;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px $colorBordes;
+    color: $colorLetras;
+}
+.estiloAprender2{
+    grid-area: estiloAprender2;
+    background-color:$colorTerciario;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px $colorBordes;
+    color: $colorLetras;
+}
+.estiloAprender3{
+    grid-area: estiloAprender3;
+    background-color:$colorTerciario;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px $colorBordes;
+    color: $colorLetras;
+}
+.estiloAprender4{
+    grid-area: estiloAprender4;
+    background-color:$colorTerciario;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px $colorBordes;
+    color: $colorLetras;
+}
+
+
+/*ESTILO DEL HTML REGISTRO*/
+main form fieldset{
+    padding: 1rem;
+    margin: 1rem;
+    background-color:$colorPrincipal;
+    color: $colorLetras;
+    main form fieldset div{
+        margin: 1rem;
+        
+    
+    }
+    
+}
+
+
+
+
+/*ESTILO DEL FOOTER*/
+ .redes{
+   padding: 2rem;
+    text-align: end;
+    .imgRedes{
+        height: 2rem;
+        margin: 1rem;
+     }
+
+ }
+ 
+
+
+
+ @media screen and (min-width: 576px){
+ /*MEDIA-QUERIES INDEX*/
+ header nav ul{
+    display: flex;
+   justify-content: space-around ;
+   }
+   
+  body .mainInicio{
+    grid-template-areas:"top1 top2  top3"
+                        "top4 top5 top6"
+                        "top7 top8 top9"
+                        "top10 top top" ;
+}
+ 
+/*MEDIA-QUERIES COMPRA/VENTA*/
+.mainCompraVenta{
+    grid-template-areas: "compraVenta1 compraVenta2 compraVenta3"
+                         "compraVenta4 compraVenta5 compraVenta6"
+                         "compraVenta7 compraVenta8 compraVenta9"
+                         "compraVenta10 compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14 compraVenta15"
+                         "compraVenta16 compraVenta compraVenta";
+
+}
+}
+   
+   
+
+   @media screen and (min-width: 1024px){
+    
+   body .mainInicio{
+        grid-template-areas:"top1 top2  top3 top4"
+                            "top5 top6 top7 top8"
+                            "top9 top10 top top" ;
+    
+    }
+
+    /*MEDIA-QUERIES COMPRA/VENTA*/
+.mainCompraVenta{
+    grid-template-areas: "compraVenta1 compraVenta2 compraVenta3 compraVenta4 "
+                         "compraVenta5 compraVenta6 compraVenta7 compraVenta8"
+                         "compraVenta9 compraVenta10 compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14 compraVenta15 compraVenta16";
+
+}
+li:hover{
+    transform: scale(0.9);
+    transition: 0.50s;
+    color: $colorBordes;
+    border-bottom: 0.20rem solid;
+
+}
+
+.tops1:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops2:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops3:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops4:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops5:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops6:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops7:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops8:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops9:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops10:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+
+.botonC:hover{
+    transform: scale(1.01);
+    transition: 0.50s;
+    border: 0.10rem solid $colorBotonC;
+}
+.botonV:hover{
+    transform: scale(1.01);
+    transition: 0.50s;
+    border: 0.10rem solid $colorBotonV;
+
+}
+
+
+}
+
+    
