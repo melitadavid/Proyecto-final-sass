@@ -1,6 +1,6 @@
 
 
-//varables color
+
 
 /*reset*/
 
@@ -727,7 +727,7 @@ footer{
                             gap: 1rem;
                             border-radius: 0.10rem;
                             box-shadow: 1px 1px 4px 0.50px $colorBordes;
-                            color: blanchedalmond;
+                            color: $colorLetras;
                             .botonCompraVenta{
                                 display: flex;
                                 gap: 1rem; 
